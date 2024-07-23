@@ -1,0 +1,85 @@
+.div-1{
+  padding: 20px;
+  border-radius: 20px;
+  width: 600px;
+  height: 600px;
+  margin: 60px auto;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px double;
+
+}
+.input1{
+  width: 100%;
+  border: 1px double #a19e9e;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-weight: 700;
+  background-color: transparent;
+
+}
+.div-3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-3 h1{
+  border: 1px double #c0bebe;
+  width: 82%;
+  height: 100%;
+  display: flex;
+  padding:10px 16px;
+  border-radius: 10px;
+}
+.div-2{
+  overflow: auto;
+  padding: 20px;
+  width: 100%;
+  height: 78%;
+  border: 1px double ;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.div-2 h1{
+  margin: 0 auto;
+  border: 1px double ;
+  min-height: 35px;
+  padding: 0 0 0 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content:space-between;
+  /* align-items: center; */
+  font-weight: 600;
+}
+.button{
+  background-color: rgb(226, 226, 226);
+  width: 56px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px double;
+  padding: 4px;
+}
+.svg{
+  width: 20px;
+}
+
+.h1 p{
+margin: auto 0;
+}
+.button1{
+  border: 1px double #9b9b9b;
+  height: 46px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all .5s ease;
+}
+.button1:hover{
+background-color: #bebdbd;
+}
